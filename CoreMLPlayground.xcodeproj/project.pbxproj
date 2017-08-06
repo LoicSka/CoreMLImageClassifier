@@ -7,14 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		18CA82D9AA999B9502CBF548 /* Pods_CoreMLPlayground.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A44626D0F0D2F3C502593C1 /* Pods_CoreMLPlayground.framework */; };
 		32CF1EAF1F36DA6E00EF0C09 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32CF1EAE1F36DA6E00EF0C09 /* AppDelegate.swift */; };
 		32CF1EB11F36DA6E00EF0C09 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32CF1EB01F36DA6E00EF0C09 /* ViewController.swift */; };
 		32CF1EB41F36DA6E00EF0C09 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32CF1EB21F36DA6E00EF0C09 /* Main.storyboard */; };
 		32CF1EB61F36DA6E00EF0C09 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32CF1EB51F36DA6E00EF0C09 /* Assets.xcassets */; };
 		32CF1EB91F36DA6E00EF0C09 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32CF1EB71F36DA6E00EF0C09 /* LaunchScreen.storyboard */; };
+		32CF1ECA1F36DCD600EF0C09 /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32CF1EC61F36DCD600EF0C09 /* UIView.swift */; };
+		32CF1ECB1F36DCD600EF0C09 /* UIFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32CF1EC71F36DCD600EF0C09 /* UIFont.swift */; };
+		32CF1ECC1F36DCD600EF0C09 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32CF1EC81F36DCD600EF0C09 /* UIColor.swift */; };
+		32CF1ED01F36E00B00EF0C09 /* ContainerCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32CF1ECF1F36E00B00EF0C09 /* ContainerCollectionViewCell.swift */; };
+		32CF1ED21F36E01F00EF0C09 /* BaseCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32CF1ED11F36E01F00EF0C09 /* BaseCollectionViewCell.swift */; };
+		32CF1ED41F36F29A00EF0C09 /* ImageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32CF1ED31F36F29A00EF0C09 /* ImageCollectionViewCell.swift */; };
+		32CF1ED61F37106F00EF0C09 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32CF1ED51F37106F00EF0C09 /* CollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0A44626D0F0D2F3C502593C1 /* Pods_CoreMLPlayground.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CoreMLPlayground.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		32CF1EAB1F36DA6E00EF0C09 /* CoreMLPlayground.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreMLPlayground.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		32CF1EAE1F36DA6E00EF0C09 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		32CF1EB01F36DA6E00EF0C09 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +31,15 @@
 		32CF1EB51F36DA6E00EF0C09 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		32CF1EB81F36DA6E00EF0C09 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		32CF1EBA1F36DA6E00EF0C09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32CF1EC61F36DCD600EF0C09 /* UIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
+		32CF1EC71F36DCD600EF0C09 /* UIFont.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIFont.swift; sourceTree = "<group>"; };
+		32CF1EC81F36DCD600EF0C09 /* UIColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
+		32CF1ECF1F36E00B00EF0C09 /* ContainerCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContainerCollectionViewCell.swift; sourceTree = "<group>"; };
+		32CF1ED11F36E01F00EF0C09 /* BaseCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseCollectionViewCell.swift; sourceTree = "<group>"; };
+		32CF1ED31F36F29A00EF0C09 /* ImageCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageCollectionViewCell.swift; sourceTree = "<group>"; };
+		32CF1ED51F37106F00EF0C09 /* CollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		89AADF1B391AC6C811479BC4 /* Pods-CoreMLPlayground.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoreMLPlayground.release.xcconfig"; path = "Pods/Target Support Files/Pods-CoreMLPlayground/Pods-CoreMLPlayground.release.xcconfig"; sourceTree = "<group>"; };
+		E711575888C8DD11A835425E /* Pods-CoreMLPlayground.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoreMLPlayground.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CoreMLPlayground/Pods-CoreMLPlayground.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +47,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18CA82D9AA999B9502CBF548 /* Pods_CoreMLPlayground.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +59,8 @@
 			children = (
 				32CF1EAD1F36DA6E00EF0C09 /* CoreMLPlayground */,
 				32CF1EAC1F36DA6E00EF0C09 /* Products */,
+				D4E5E3B0F5325908613120BD /* Pods */,
+				3DE8526F72C31C46998B7DB5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +75,78 @@
 		32CF1EAD1F36DA6E00EF0C09 /* CoreMLPlayground */ = {
 			isa = PBXGroup;
 			children = (
+				32CF1EC21F36DBAD00EF0C09 /* Source */,
 				32CF1EAE1F36DA6E00EF0C09 /* AppDelegate.swift */,
-				32CF1EB01F36DA6E00EF0C09 /* ViewController.swift */,
 				32CF1EB21F36DA6E00EF0C09 /* Main.storyboard */,
 				32CF1EB51F36DA6E00EF0C09 /* Assets.xcassets */,
 				32CF1EB71F36DA6E00EF0C09 /* LaunchScreen.storyboard */,
 				32CF1EBA1F36DA6E00EF0C09 /* Info.plist */,
 			);
 			path = CoreMLPlayground;
+			sourceTree = "<group>";
+		};
+		32CF1EC01F36DB8300EF0C09 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				32CF1EB01F36DA6E00EF0C09 /* ViewController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		32CF1EC11F36DB9400EF0C09 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				32CF1ED11F36E01F00EF0C09 /* BaseCollectionViewCell.swift */,
+				32CF1ECF1F36E00B00EF0C09 /* ContainerCollectionViewCell.swift */,
+				32CF1ED31F36F29A00EF0C09 /* ImageCollectionViewCell.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		32CF1EC21F36DBAD00EF0C09 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				32CF1EC31F36DC1C00EF0C09 /* Utils */,
+				32CF1EC01F36DB8300EF0C09 /* ViewControllers */,
+				32CF1EC11F36DB9400EF0C09 /* Views */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		32CF1EC31F36DC1C00EF0C09 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				32CF1ECE1F36DCE100EF0C09 /* Extensions */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+		32CF1ECE1F36DCE100EF0C09 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				32CF1EC61F36DCD600EF0C09 /* UIView.swift */,
+				32CF1EC71F36DCD600EF0C09 /* UIFont.swift */,
+				32CF1EC81F36DCD600EF0C09 /* UIColor.swift */,
+				32CF1ED51F37106F00EF0C09 /* CollectionViewCell.swift */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		3DE8526F72C31C46998B7DB5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0A44626D0F0D2F3C502593C1 /* Pods_CoreMLPlayground.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D4E5E3B0F5325908613120BD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E711575888C8DD11A835425E /* Pods-CoreMLPlayground.debug.xcconfig */,
+				89AADF1B391AC6C811479BC4 /* Pods-CoreMLPlayground.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +156,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 32CF1EBD1F36DA6E00EF0C09 /* Build configuration list for PBXNativeTarget "CoreMLPlayground" */;
 			buildPhases = (
+				3BFBE44C8FD8CAB9C4D86C7D /* [CP] Check Pods Manifest.lock */,
 				32CF1EA71F36DA6E00EF0C09 /* Sources */,
 				32CF1EA81F36DA6E00EF0C09 /* Frameworks */,
 				32CF1EA91F36DA6E00EF0C09 /* Resources */,
+				D771A67E43473F8AD5C12AB3 /* [CP] Embed Pods Frameworks */,
+				D9658A0AA340FDF62FC32452 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -132,13 +220,68 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3BFBE44C8FD8CAB9C4D86C7D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D771A67E43473F8AD5C12AB3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CoreMLPlayground/Pods-CoreMLPlayground-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D9658A0AA340FDF62FC32452 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CoreMLPlayground/Pods-CoreMLPlayground-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		32CF1EA71F36DA6E00EF0C09 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				32CF1ECB1F36DCD600EF0C09 /* UIFont.swift in Sources */,
+				32CF1ED21F36E01F00EF0C09 /* BaseCollectionViewCell.swift in Sources */,
+				32CF1ED61F37106F00EF0C09 /* CollectionViewCell.swift in Sources */,
+				32CF1ED41F36F29A00EF0C09 /* ImageCollectionViewCell.swift in Sources */,
 				32CF1EB11F36DA6E00EF0C09 /* ViewController.swift in Sources */,
+				32CF1ECA1F36DCD600EF0C09 /* UIView.swift in Sources */,
 				32CF1EAF1F36DA6E00EF0C09 /* AppDelegate.swift in Sources */,
+				32CF1ED01F36E00B00EF0C09 /* ContainerCollectionViewCell.swift in Sources */,
+				32CF1ECC1F36DCD600EF0C09 /* UIColor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,10 +402,12 @@
 		};
 		32CF1EBE1F36DA6E00EF0C09 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E711575888C8DD11A835425E /* Pods-CoreMLPlayground.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 48FWN8V22H;
 				INFOPLIST_FILE = CoreMLPlayground/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.drawpad.CoreMLPlayground;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -272,10 +417,12 @@
 		};
 		32CF1EBF1F36DA6E00EF0C09 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89AADF1B391AC6C811479BC4 /* Pods-CoreMLPlayground.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 48FWN8V22H;
 				INFOPLIST_FILE = CoreMLPlayground/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.drawpad.CoreMLPlayground;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -302,6 +449,7 @@
 				32CF1EBF1F36DA6E00EF0C09 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

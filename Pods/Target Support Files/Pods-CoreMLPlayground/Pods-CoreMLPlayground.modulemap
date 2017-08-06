@@ -1,0 +1,6 @@
+framework module Pods_CoreMLPlayground {
+  umbrella header "Pods-CoreMLPlayground-umbrella.h"
+
+  export *
+  module * { export * }
+}
