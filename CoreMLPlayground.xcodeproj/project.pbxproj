@@ -8,22 +8,26 @@
 
 /* Begin PBXBuildFile section */
 		18CA82D9AA999B9502CBF548 /* Pods_CoreMLPlayground.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A44626D0F0D2F3C502593C1 /* Pods_CoreMLPlayground.framework */; };
+		3232FAE31F384FEE004FE52E /* ImageProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3232FAE21F384FEE004FE52E /* ImageProcessor.swift */; };
 		32CF1EAF1F36DA6E00EF0C09 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32CF1EAE1F36DA6E00EF0C09 /* AppDelegate.swift */; };
 		32CF1EB11F36DA6E00EF0C09 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32CF1EB01F36DA6E00EF0C09 /* ViewController.swift */; };
 		32CF1EB41F36DA6E00EF0C09 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32CF1EB21F36DA6E00EF0C09 /* Main.storyboard */; };
 		32CF1EB61F36DA6E00EF0C09 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32CF1EB51F36DA6E00EF0C09 /* Assets.xcassets */; };
 		32CF1EB91F36DA6E00EF0C09 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32CF1EB71F36DA6E00EF0C09 /* LaunchScreen.storyboard */; };
 		32CF1ECA1F36DCD600EF0C09 /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32CF1EC61F36DCD600EF0C09 /* UIView.swift */; };
-		32CF1ECB1F36DCD600EF0C09 /* UIFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32CF1EC71F36DCD600EF0C09 /* UIFont.swift */; };
 		32CF1ECC1F36DCD600EF0C09 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32CF1EC81F36DCD600EF0C09 /* UIColor.swift */; };
 		32CF1ED01F36E00B00EF0C09 /* ContainerCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32CF1ECF1F36E00B00EF0C09 /* ContainerCollectionViewCell.swift */; };
 		32CF1ED21F36E01F00EF0C09 /* BaseCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32CF1ED11F36E01F00EF0C09 /* BaseCollectionViewCell.swift */; };
 		32CF1ED41F36F29A00EF0C09 /* ImageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32CF1ED31F36F29A00EF0C09 /* ImageCollectionViewCell.swift */; };
 		32CF1ED61F37106F00EF0C09 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32CF1ED51F37106F00EF0C09 /* CollectionViewCell.swift */; };
+		32CF1ED81F3754AB00EF0C09 /* Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32CF1ED71F3754AA00EF0C09 /* Array.swift */; };
+		32FDDA751F3857670015BFA2 /* GoogLeNetPlaces.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 32FDDA741F3857670015BFA2 /* GoogLeNetPlaces.mlmodel */; };
+		32FDDA791F38658C0015BFA2 /* UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32FDDA781F38658C0015BFA2 /* UIImage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0A44626D0F0D2F3C502593C1 /* Pods_CoreMLPlayground.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CoreMLPlayground.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3232FAE21F384FEE004FE52E /* ImageProcessor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageProcessor.swift; sourceTree = "<group>"; };
 		32CF1EAB1F36DA6E00EF0C09 /* CoreMLPlayground.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreMLPlayground.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		32CF1EAE1F36DA6E00EF0C09 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		32CF1EB01F36DA6E00EF0C09 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -32,12 +36,14 @@
 		32CF1EB81F36DA6E00EF0C09 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		32CF1EBA1F36DA6E00EF0C09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		32CF1EC61F36DCD600EF0C09 /* UIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
-		32CF1EC71F36DCD600EF0C09 /* UIFont.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIFont.swift; sourceTree = "<group>"; };
 		32CF1EC81F36DCD600EF0C09 /* UIColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
 		32CF1ECF1F36E00B00EF0C09 /* ContainerCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContainerCollectionViewCell.swift; sourceTree = "<group>"; };
 		32CF1ED11F36E01F00EF0C09 /* BaseCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseCollectionViewCell.swift; sourceTree = "<group>"; };
 		32CF1ED31F36F29A00EF0C09 /* ImageCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageCollectionViewCell.swift; sourceTree = "<group>"; };
 		32CF1ED51F37106F00EF0C09 /* CollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		32CF1ED71F3754AA00EF0C09 /* Array.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Array.swift; sourceTree = "<group>"; };
+		32FDDA741F3857670015BFA2 /* GoogLeNetPlaces.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = GoogLeNetPlaces.mlmodel; sourceTree = "<group>"; };
+		32FDDA781F38658C0015BFA2 /* UIImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImage.swift; sourceTree = "<group>"; };
 		89AADF1B391AC6C811479BC4 /* Pods-CoreMLPlayground.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoreMLPlayground.release.xcconfig"; path = "Pods/Target Support Files/Pods-CoreMLPlayground/Pods-CoreMLPlayground.release.xcconfig"; sourceTree = "<group>"; };
 		E711575888C8DD11A835425E /* Pods-CoreMLPlayground.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoreMLPlayground.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CoreMLPlayground/Pods-CoreMLPlayground.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -75,6 +81,7 @@
 		32CF1EAD1F36DA6E00EF0C09 /* CoreMLPlayground */ = {
 			isa = PBXGroup;
 			children = (
+				32FDDA741F3857670015BFA2 /* GoogLeNetPlaces.mlmodel */,
 				32CF1EC21F36DBAD00EF0C09 /* Source */,
 				32CF1EAE1F36DA6E00EF0C09 /* AppDelegate.swift */,
 				32CF1EB21F36DA6E00EF0C09 /* Main.storyboard */,
@@ -117,6 +124,7 @@
 			isa = PBXGroup;
 			children = (
 				32CF1ECE1F36DCE100EF0C09 /* Extensions */,
+				3232FAE21F384FEE004FE52E /* ImageProcessor.swift */,
 			);
 			name = Utils;
 			sourceTree = "<group>";
@@ -125,9 +133,10 @@
 			isa = PBXGroup;
 			children = (
 				32CF1EC61F36DCD600EF0C09 /* UIView.swift */,
-				32CF1EC71F36DCD600EF0C09 /* UIFont.swift */,
 				32CF1EC81F36DCD600EF0C09 /* UIColor.swift */,
 				32CF1ED51F37106F00EF0C09 /* CollectionViewCell.swift */,
+				32CF1ED71F3754AA00EF0C09 /* Array.swift */,
+				32FDDA781F38658C0015BFA2 /* UIImage.swift */,
 			);
 			name = Extensions;
 			sourceTree = "<group>";
@@ -179,12 +188,13 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
-				LastUpgradeCheck = 0830;
+				LastUpgradeCheck = 0900;
 				ORGANIZATIONNAME = 3sparks;
 				TargetAttributes = {
 					32CF1EAA1F36DA6E00EF0C09 = {
 						CreatedOnToolsVersion = 8.3.3;
 						DevelopmentTeam = 48FWN8V22H;
+						LastSwiftMigration = 0900;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -273,7 +283,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				32CF1ECB1F36DCD600EF0C09 /* UIFont.swift in Sources */,
+				3232FAE31F384FEE004FE52E /* ImageProcessor.swift in Sources */,
+				32CF1ED81F3754AB00EF0C09 /* Array.swift in Sources */,
 				32CF1ED21F36E01F00EF0C09 /* BaseCollectionViewCell.swift in Sources */,
 				32CF1ED61F37106F00EF0C09 /* CollectionViewCell.swift in Sources */,
 				32CF1ED41F36F29A00EF0C09 /* ImageCollectionViewCell.swift in Sources */,
@@ -282,6 +293,8 @@
 				32CF1EAF1F36DA6E00EF0C09 /* AppDelegate.swift in Sources */,
 				32CF1ED01F36E00B00EF0C09 /* ContainerCollectionViewCell.swift in Sources */,
 				32CF1ECC1F36DCD600EF0C09 /* UIColor.swift in Sources */,
+				32FDDA751F3857670015BFA2 /* GoogLeNetPlaces.mlmodel in Sources */,
+				32FDDA791F38658C0015BFA2 /* UIImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -317,7 +330,9 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -325,7 +340,11 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -348,7 +367,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -367,7 +386,9 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -375,7 +396,11 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -392,7 +417,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -407,11 +432,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 48FWN8V22H;
 				INFOPLIST_FILE = CoreMLPlayground/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.drawpad.CoreMLPlayground;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
@@ -422,11 +448,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 48FWN8V22H;
 				INFOPLIST_FILE = CoreMLPlayground/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.drawpad.CoreMLPlayground;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
 		};

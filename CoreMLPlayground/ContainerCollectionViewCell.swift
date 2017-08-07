@@ -19,27 +19,44 @@ class ContainerCollectionViewCell: BaseCollectionViewCell, UICollectionViewDeleg
         }
     }
     
+    var images = [UIImage]() {
+        didSet {
+            collectionView.reloadData()
+        }
+    }
+    
     lazy var collectionView: UICollectionView = {
         
         let layout = UICollectionViewFlowLayout()
         let cv = UICollectionView(frame: .zero, collectionViewLayout: layout)
-        cv.backgroundColor = .white
+        cv.backgroundColor = .clear
         cv.dataSource = self
         cv.delegate = self
         cv.translatesAutoresizingMaskIntoConstraints = false
         return cv
     }()
     
+    let tagLabel = UILabel().then {
+        $0.textColor = .clearBlue
+        $0.font = UIFont(name: $0.font.fontName, size: 18)
+        $0.translatesAutoresizingMaskIntoConstraints = false
+    }
+    
     override func setupViews() {
+        
         backgroundColor = .white
+        addSubview(tagLabel)
         
-        addSubview(collectionView)
-        
-        collectionView.register(ImageCollectionViewCell.self, forCellWithReuseIdentifier: cellId)
-
+        tagLabel.bottomAnchor.constraint(equalTo: bottomAnchor, constant: -20).isActive = true
+        tagLabel.widthAnchor.constraint(equalToConstant: frame.width - 40).isActive = true
+        tagLabel.centerXAnchor.constraint(equalTo: centerXAnchor).isActive = true
+        tagLabel.heightAnchor.constraint(equalToConstant: 22).isActive = true
     }
     
     func setupCollectionView() {
+        
+        addSubview(collectionView)
+        collectionView.register(ImageCollectionViewCell.self, forCellWithReuseIdentifier: cellId)
         
         if let index = tagItem {
             let cond = index % 2 == 0
@@ -54,7 +71,11 @@ class ContainerCollectionViewCell: BaseCollectionViewCell, UICollectionViewDeleg
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: cellId, for: indexPath)
+        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: cellId, for: indexPath) as! ImageCollectionViewCell
+        if images.count >= indexPath.item + 1 {
+            cell.imageView.image  = images[indexPath.item]
+        }
+        
         return cell
     }
     
